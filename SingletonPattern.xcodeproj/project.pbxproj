@@ -14,6 +14,8 @@
 		10D99F0F1B7386EF00F41C5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D99F0E1B7386EF00F41C5B /* Images.xcassets */; };
 		10D99F121B7386EF00F41C5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D99F101B7386EF00F41C5B /* LaunchScreen.xib */; };
 		10D99F1E1B7386EF00F41C5B /* SingletonPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D99F1D1B7386EF00F41C5B /* SingletonPatternTests.m */; };
+		10D99F291B73871100F41C5B /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D99F281B73871100F41C5B /* Singleton.m */; };
+		10D99F2C1B738ACD00F41C5B /* NewSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D99F2B1B738ACD00F41C5B /* NewSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		10D99F171B7386EF00F41C5B /* SingletonPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D99F1C1B7386EF00F41C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10D99F1D1B7386EF00F41C5B /* SingletonPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternTests.m; sourceTree = "<group>"; };
+		10D99F271B73871100F41C5B /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		10D99F281B73871100F41C5B /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		10D99F2A1B738ACD00F41C5B /* NewSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSingleton.h; sourceTree = "<group>"; };
+		10D99F2B1B738ACD00F41C5B /* NewSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				10D99F061B7386EF00F41C5B /* AppDelegate.m */,
 				10D99F081B7386EF00F41C5B /* ViewController.h */,
 				10D99F091B7386EF00F41C5B /* ViewController.m */,
+				10D99F271B73871100F41C5B /* Singleton.h */,
+				10D99F281B73871100F41C5B /* Singleton.m */,
+				10D99F2A1B738ACD00F41C5B /* NewSingleton.h */,
+				10D99F2B1B738ACD00F41C5B /* NewSingleton.m */,
 				10D99F0B1B7386EF00F41C5B /* Main.storyboard */,
 				10D99F0E1B7386EF00F41C5B /* Images.xcassets */,
 				10D99F101B7386EF00F41C5B /* LaunchScreen.xib */,
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D99F0A1B7386EF00F41C5B /* ViewController.m in Sources */,
+				10D99F291B73871100F41C5B /* Singleton.m in Sources */,
 				10D99F071B7386EF00F41C5B /* AppDelegate.m in Sources */,
 				10D99F041B7386EF00F41C5B /* main.m in Sources */,
+				10D99F2C1B738ACD00F41C5B /* NewSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
